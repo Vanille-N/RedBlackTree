@@ -25,7 +25,7 @@ The following are available in three forms :
   - succ(Node(V)) ; Find node with the next bigger value
   - pred(Node(V)) ; Find node with the next smaller value
   
-  for any f of these functions,
-    - f raises an error is no node satisfies the required property
-    - f? returns nil if no node satisfies the required property
-    - f! returns a list of all nodes that satisfy the property
+  for any f of these functions : 
+    f raises an error is no node satisfies the required property ; 
+    f? returns nil if no node satisfies the required property ; 
+    f! returns a list of all nodes that satisfy the property
