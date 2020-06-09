@@ -1,4 +1,7 @@
 # RedBlackTree
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A Red-Black binary search tree for the Crystal language
 
 Deletion is not supported yet.
@@ -24,8 +27,8 @@ The following are available in three forms :
   - min ; Find the lsfttmost node (with the smallest value)
   - succ(Node(V)) ; Find node with the next bigger value
   - pred(Node(V)) ; Find node with the next smaller value
-  
-  for any f of these functions : 
-    f raises an error is no node satisfies the required property ; 
-    f? returns nil if no node satisfies the required property ; 
+
+  for any f of these functions :
+    f raises an error is no node satisfies the required property ;
+    f? returns nil if no node satisfies the required property ;
     f! returns a list of all nodes that satisfy the property
